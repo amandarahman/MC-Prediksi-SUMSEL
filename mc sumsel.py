@@ -13,7 +13,7 @@ st.write("Dashboard otomatis membaca dataset tanpa perlu upload file.")
 # =======================================================
 # 0. AUTO-LOAD DATASET (TANPA UPLOAD)
 # =======================================================
-FILE_NAME = "dataset.xlsx"       # ← Ganti nama file jika berbeda
+FILE_NAME = "SUMSEL 2015-2025.xlsx"       
 SHEET_NAME = "Data Harian - Table"
 
 try:
@@ -156,3 +156,4 @@ st.download_button(
     file_name='prediksi_cuaca_multi_variabel_2025_2075.csv',
     mime='text/csv'
 )
+
